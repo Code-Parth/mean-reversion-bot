@@ -1,0 +1,1 @@
+export const JUPITER_URL = "https://api.jup.ag";

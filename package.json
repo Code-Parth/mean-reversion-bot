@@ -1,0 +1,22 @@
+{
+  "name": "mean-reversion-bot",
+  "module": "/src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "mean": "bun run src/mean-reversion.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@jup-ag/api": "^6.0.39",
+    "@solana/web3.js": "^1.98.0",
+    "axios": "^1.7.9",
+    "bs58": "^6.0.0",
+    "colorette": "^2.0.20"
+  }
+}
